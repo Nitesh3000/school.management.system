@@ -1,0 +1,29 @@
+Create "School Management System" involves maintianing the "Students, Teachers and then the funds"
+
+//We can rephrase this project as Money Management system for School
+
+list to do:
+1. students total fees
+2. Fees already paid
+3. teachers Salary
+
+//School contains
+Teachers,
+Students,
+Total Money earned,
+Total money spent - "just the teachers Salary"
+
+//Teacher contains
+id
+name,
+Salary
+
+//Students contains
+id,
+name,
+grade,
+fees paid,
+fees total
+
+
+OOP
