@@ -25,5 +25,18 @@ public class Main {
         System.out.println("sss has earned : " + sss.getTotalMoneySpent());
         System.out.println("sss has spent : " + sss.getTotalMoneyEarned());
 
+        rahul.UpdateFeesPaid(500);
+        System.out.println("Sss has earned : " + sss.getTotalMoneyEarned());
+        System.out.println("rahul has paid : " + rahul.getFeesPaid());
+
+        rakhi.UpdateFeesPaid(1000);
+        System.out.println("Sss has earned : " + sss.getTotalMoneyEarned());
+
+        System.out.println("----------School paying salary to teachers-----------------------------");
+        ravi.receiveSalary(ravi.getSalary());
+        System.out.println("ravi recieved total of  " + ravi.totalSalaryEarned());
+        System.out.println("sss has spent for salary to " + ravi.getName() + " with id " + ravi.getId() + " of : "
+                + ravi.totalSalaryEarned());
+
     }
 }
